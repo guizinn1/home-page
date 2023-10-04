@@ -1,105 +1,133 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sistok</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/Logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>Sistok</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
+
 <body>
-
     <nav>
-            <img src="assets/Group 1.svg" alt="img-nav">
-            <div class="nav-list">
-                <h2>Sobre nós</h2>
-                <h2>Serviços</h2>
-                <h2>Atuação</h2>
-                <h2>Planos</h2>
-                <h2>Ajuda</h2>
-            </div>
-            <a href="#">Cadastre-se</a>
-
-            <button class="btn-login">Entrar</button>
-
-        </div>
-
+        <img src="assets/Group 1.svg" alt="logo">
+        <ul class="nav-list">
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Atuação</a></li>
+            <li><a href="#">Planos</a></li>
+            <li><a href="#">Ajuda</a></li>
+        </ul>
+        <a href="#">Cadastre-se</a>
+        <button class="entrar">Entrar</button>
     </nav>
-
-    <div class="bloco-1">
-
-        <h1>Organize seu negócio com o sistema Sistok</h1>
-        <h2>O software ideal para pequenos e médios negócios. Tenha todos os controles do seu negócio em um único lugar.</h2>
-        
-        <button class="btn-conhecer">Quero Conhecer</button>
-
-        <img src="assets/Ativo 1 1.svg" alt="img-bloco1">
-
-        <div class="solucao">
-            <img src="assets/bloco-1/solucao.svg">
-            <h1>Solução</h1>
-            <h2>100% SaaS</h2>
+    
+    <div class="main">
+        <div class="control-text">
+            <h1>Organize seu negócio com o sistema Sistok</h1>
+            <h2>O software ideal para pequenos e médios negócios. Tenha todos os controles do seu negócio em um único
+                lugar.</h2>
+            <button class="conhecer">Quero Conhecer</button>
         </div>
-        <div class="plataforma">
-            <img src="assets/bloco-1/plataforma.svg">
-            <h1>Plataforma</h1>
-            <h2>Em Cloud</h2>
-        </div>
-        <div class="focado">
-            <img src="assets/bloco-1/focado.svg">
-            <h1>Focado Em</h1>
-            <h2>Costumer Success</h2>
-        </div>
-        <div class="seguranca">
-            <img src="assets/bloco-1/seguranca.svg">
-            <h1>Segurança</h1>
-            <h2>para seu negócio</h2>
+
+        <img class="imagem" src="assets/Ativo 1 1.svg" alt="decoration">
+
+        <div>
+            <ul class="main-list">
+                <li class="solu">
+                    <img src="assets/bloco-1/solucao.svg" alt="soluções">
+                    <div class="text">
+                        <h1>Solução</h1>
+                        <h2>100% SaaS</h2>
+                    </div>
+                </li>
+                <li class="plat">
+                    <img src="assets/bloco-1/plataforma.svg" alt="plataforma">
+                    <div class="text">
+                        <h1>Plataforma</h1>
+                        <h2>em Cloud</h2>
+                    </div>
+                </li>
+                <li class="foc">
+                    <img src="assets/bloco-1/focado.svg" alt="focado">
+                    <div class="text">
+                        <h1>Focado em</h1>
+                        <h2>Costumer Sucess</h2>
+                    </div>
+                </li>
+                <li class="seg">
+                    <img src="assets/bloco-1/seguranca.svg" alt="segurança">
+                    <div class="text">
+                        <h1>Segurança</h1>
+                        <h2>Para seu negócio</h2>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 
-    <div class="bloco-2">
-        
-        <h3>SERVIÇOS</h3>
-        <h4>O sistema de gestão Sistok é completo para atender diversos segmentos do mercado empresarial.</h4>
-
-        <div class="controle-de-vendas">
-            <img src="assets/bloco-2/controle-de-vendas.svg">
-            <h1>Controle de Vendas</h1>
-            <h2>Controle suas vendas e fluxo de caixa de forma fácil e eficiente.</h2>
+    <div class="servicos">
+        <h2>SERVIÇOS</h2>
+        <h1>O sistema de gestão Sistok é completo para atender diversos segmentos do mercado empresarial.</h1>
+        <div class="list-servicos">
+            <div class="card">
+                <img src="assets/bloco-2/controle-de-vendas.svg" alt="vendas">
+                <h3>Controle de vendas</h3>
+                <h4>Controle suas vendas e fluxos de caixa de forma fácil e eficiente.</h4>
+            </div>
+            <div class="card">
+                <img src="assets/bloco-2/controle-de-estoque.svg" alt="estoque">
+                <h3>Controle de estoque</h3>
+                <h4>Controle seu estoque on-line, de maneir fácil e automatizada.</h4>
+            </div>
+            <div class="card">
+                <img src="assets/bloco-2/gestao-de-clientes.svg" alt="clientes">
+                <h3>Gestão de clientes</h3>
+                <h4>Gerencie sua carteira de clientes e facilite seu trabalho.</h4>
+            </div>
+            <div class="card">
+                <img src="assets/bloco-2/gestao-de-fornecedores.svg" alt="fornecedores">
+                <h3>Gestão de fornecedores</h3>
+                <h4>Gerencie seus fornecedores facilmente on-line.</h4>
+            </div>
         </div>
-        <div class="controle-de-estoque">
-            <img src="assets/bloco-2/controle-de-estoque.svg">
-            <h1>Controle de Estoque</h1>
-            <h2>Controle seu estoque on-line, de maneira fácil e automatizada. </h2>
-        </div>
-        <div class="gestao-de-clientes">
-            <img src="assets/bloco-2/gestao-de-clientes.svg">
-            <h1>Gestão de Clientes</h1>
-            <h2>Gerencie sua carteira de clientes e facilite seu trabalho.</h2>
-        </div>
-        <div class="gestao-de-fornecedores">
-            <img src="assets/bloco-2/gestao-de-fornecedores.svg">
-            <h1>Gestão de Fornecedores</h1>
-            <h2>Gerencie seus fornecedores facilmente on-line.</h2>
-        </div>
-
-    </div>    
-
-    <div class="bloco-3">
-
-        <h3>SOBRE NÓS</h3>
-        <h4>Um Sistime de sucesso para te ajudar!</h4>
-
-        <img src="assets/imagem bloco 3.svg" alt="img-bloco3">
-
-        <p>O sistema de gestão Sistok é um serviço da empresa Tec Code, focada em soluções  de sistemas on-line e desktops para pequenas e médias empresas.</p>
-        <p>Fundada em 2019, procuramos sempre melhorar a experiência do cliente com nossos serviços. Nosso time é super qualificado e o melhor, ama o que faz.</p>
-        <p>Vem com a gente transformar seu negócio! </p>
-
-        <button class="btn-cases">Nossos Cases</button>
-
     </div>
 
+    <div class="sobre">
+        <h2>SOBRE NÓS</h2>
+        <h1>Um Sistema de sucesso para te ajudar!</h1>
+        <div class="img-text">
+            <img src="assets/imagem bloco 3.svg" alt="moça">
+            <div class="texto-sobre">
+                <h3>O sistema de gestão Sistok é um serviço da empresa Tec Code, focada emoluções de sistemas on-line e
+                    desktops para pequenas e médias empresas.</h3>
+
+                <h3>Fundada em 2019, procuramos sempre melhorar a experiência do cliente com nossos serviços. Nosso time
+                    é super qualificado e o melhor,ama o que faz.</h3>
+
+                <h3>Vem com a gente transformar seu negócio! <i class="bi bi-emoji-grin"></i>
+                </h3>
+                <button class="cases">Nossos Cases <i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="atuacao">
+        <p>ATUAÇÃO</p>
+        <h1>O Sistokaplica-se a diferentes tipos de negócios, de fácil utilização, é rápido e seguro para você.</h1>
+        <div class="card-at">Bares</div>
+        <div class="card-at">Restaurantes</div>
+        <div class="card-at">Mercearias</div>
+        <div class="card-at">Adegas</div>
+    </div>
+    <div class="planos">
+        <h2>PLANOS</h2>
+        <h1>Escolha um plano para experimentar o Sistok</h1>
+    </div>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
